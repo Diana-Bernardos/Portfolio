@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d6d7db; /* Suave fondo gris claro */
+    color: #2c3e50; /* Texto en gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #34495e; /* Azul oscuro */
+    color: #ecf0f1; /* Blanco humo */
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.profile-img {
+    width: 250px;
+    height: 285px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    animation: bounce 2s infinite;
+    border: 10px solid #d1edf5; /* Borde blanco humo para destacar */
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #34495e; /* Azul oscuro */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #34495e; /* Azul oscuro */
+    animation: slideInLeft 1s ease-in-out;
+}
+
+.contact-info, .experience, .projects, .skills, .education, .languages {
+    background: #ffffff; /* Blanco puro para claridad */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    animation: slideInRight 1s ease-in-out;
+}
+
+.project-img {
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    max-width: 300px; /* Tamaño máximo */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destacar */
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+.courses {
+    background: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    animation: slideInRight 1s ease-in-out;
+}
+
+.courses h2 {
+    border-bottom: 2px solid #34495e; /* Línea inferior en azul oscuro */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #34495e; /* Texto en azul oscuro */
+}
+
+.course-item {
+    margin-bottom: 15px;
+}
+
+.course-item h3 {
+    color: #2c3e50; /* Título del curso en gris oscuro */
+    margin-bottom: 5px;
+}
+
+.course-item p {
+    margin: 2px 0;
+    color: #7f8c8d; /* Texto descriptivo en gris suave */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #34495e; /* Azul oscuro */
+    color: #ecf0f1; /* Blanco humo */
+    margin-top: 40px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}

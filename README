@@ -1,0 +1,67 @@
+# Portafolio de Diana Bernardos Moraleda
+
+¡Bienvenido al portafolio de Diana Bernardos Moraleda! Este es un sitio web personal diseñado para mostrar mi experiencia profesional, proyectos destacados, habilidades y educación. A continuación, encontrarás información sobre cómo ver y utilizar este portafolio.
+
+## Contenido
+
+1. **Perfil Profesional**
+   - Un resumen de mi experiencia y enfoque profesional.
+
+2. **Proyectos Destacados**
+   - Detalles de algunos proyectos en los que he trabajado, incluyendo imágenes y tecnologías utilizadas.
+
+3. **Experiencia Profesional**
+   - Una lista de mis trabajos anteriores y responsabilidades.
+
+4. **Habilidades**
+   - Habilidades técnicas y herramientas que manejo.
+
+5. **Formación Técnica**
+   - Cursos y certificaciones relevantes para mi carrera.
+
+6. **Idiomas**
+   - Idiomas que hablo y mi nivel de competencia.
+
+7. **Contacto**
+   - Información para que puedas comunicarte conmigo a través de correo electrónico, LinkedIn y GitHub.
+
+## Instalación y Uso
+
+### Requisitos
+
+- Un navegador web moderno (Chrome, Firefox, Safari, etc.)
+
+### Clonar el Repositorio
+
+Para ver el portafolio localmente, primero clona este repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+
+Abrir el Proyecto
+Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador web favorito:
+
+bash
+Copiar código
+cd TU_REPOSITORIO
+Abre index.html con tu navegador (puedes arrastrar el archivo a una ventana del navegador o hacer clic derecho y seleccionar "Abrir con").
+
+Tecnologías Utilizadas
+HTML5: Para la estructura del contenido.
+CSS3: Para el diseño y la maquetación del sitio.
+Estructura de Archivos
+index.html: El archivo principal de la página web.
+style.css: El archivo de estilos CSS para la apariencia del portafolio.
+porfolio.css: Archivo CSS adicional para estilos específicos (si aplica).
+img/: Carpeta que contiene las imágenes utilizadas en el portafolio.
+
+Contacto
+Correo Electrónico: dianilla75@gmail.com
+LinkedIn: Perfil de LinkedIn
+GitHub: Perfil de GitHub
+
+
+
+
+
+¡Gracias por visitar mi portafolio! Espero que encuentres interesante mi trabajo y no dudes en ponerte en contacto conmigo para cualquier consulta o colaboración.
