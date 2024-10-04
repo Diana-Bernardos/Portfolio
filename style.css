@@ -47,13 +47,31 @@ section h2 {
     animation: slideInLeft 1s ease-in-out;
 }
 
-.contact-info, .experience, .projects, .skills, .education, .languages {
+.contact-info,
+.experience,
+.projects,
+.skills,
+.education,
+.languages,
+.courses {
     background: #ffffff; /* Blanco puro para claridad */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     animation: slideInRight 1s ease-in-out;
+}
+
+/* Nueva clase para efecto de aparición */
+.fade-in {
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateY(20px); /* Mueve la sección hacia abajo */
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out; /* Transiciones suaves */
+}
+
+.fade-in.visible {
+    opacity: 1; /* Muestra la sección */
+    transform: translateY(0); /* Restaura la posición original */
 }
 
 .project-img {
@@ -62,18 +80,19 @@ section h2 {
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destacar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
 }
 
 .project-img:hover {
     transform: scale(1.05);
 }
+
 .courses {
     background: #ffffff; /* Fondo blanco */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     animation: slideInRight 1s ease-in-out;
 }
 
@@ -97,7 +116,6 @@ section h2 {
     margin: 2px 0;
     color: #7f8c8d; /* Texto descriptivo en gris suave */
 }
-
 
 footer {
     text-align: center;
